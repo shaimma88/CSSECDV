@@ -2584,7 +2584,7 @@
           {
             "position": {
               "x": 130,
-              "y": 480
+              "y": 472.0000000000001
             },
             "size": {
               "width": 150,
@@ -2592,7 +2592,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Browser Application"
+                "text": "Browser Client"
               },
               "body": {
                 "stroke": "red",
@@ -2688,7 +2688,7 @@
             "id": "84f16a02-8bbd-447b-8eee-f6212103dcdd",
             "data": {
               "type": "tm.Actor",
-              "name": "Browser Application",
+              "name": "Browser Client",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -2714,6 +2714,13 @@
                 "spoofing": 1,
                 "repudiation": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
