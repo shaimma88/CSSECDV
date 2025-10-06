@@ -27,6 +27,9 @@
               "height": 130
             },
             "attrs": {
+              "text": {
+                "text": "Authorization \nProvider"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -121,7 +124,7 @@
             "zIndex": 1,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Authorization \nProvider",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -147,6 +150,9 @@
               "height": 130
             },
             "attrs": {
+              "text": {
+                "text": "Web \nApplication"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -240,7 +246,7 @@
             "id": "55518e82-ab36-432b-9d8f-93c742fdfffe",
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Web \nApplication",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
