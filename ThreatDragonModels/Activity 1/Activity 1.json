@@ -515,7 +515,12 @@
               "x": 240,
               "y": 80
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 190,
+                "y": 100
+              }
+            ]
           },
           {
             "shape": "trust-boundary-curve",
@@ -894,7 +899,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Insert feedback comments",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -907,18 +912,23 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "Insert feedback comments"
             ],
             "id": "8c539af2-3daa-49b6-8a7d-2a73b7aa0f5e",
             "source": {
-              "x": 124,
-              "y": 144
+              "x": 280,
+              "y": 550
             },
             "target": {
-              "x": 304,
-              "y": 144
+              "x": 524,
+              "y": 544
             },
-            "vertices": [],
+            "vertices": [
+              {
+                "x": 450,
+                "y": 544
+              }
+            ],
             "zIndex": 17
           },
           {
@@ -986,7 +996,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "User is authenticated",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -999,16 +1009,16 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "User is authenticated"
             ],
             "id": "58c034f5-ab85-4f16-84b9-af0380499758",
             "source": {
-              "x": 245,
-              "y": 292
+              "x": 540,
+              "y": 510
             },
             "target": {
-              "x": 82,
-              "y": 292
+              "x": 282,
+              "y": 512
             },
             "zIndex": 19
           },
@@ -1122,7 +1132,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "feedback comments saved",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1135,18 +1145,24 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "feedback comments saved"
             ],
             "id": "33fbe5e0-ad31-41cc-931a-ac5562ff96df",
             "source": {
-              "x": 277,
-              "y": 324
+              "x": 510,
+              "y": 570
             },
             "target": {
-              "x": 114,
-              "y": 324
+              "x": 274,
+              "y": 564
             },
-            "zIndex": 22
+            "zIndex": 22,
+            "vertices": [
+              {
+                "x": 390,
+                "y": 570
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1196,12 +1212,12 @@
           },
           {
             "position": {
-              "x": 217,
-              "y": 522
+              "x": 130,
+              "y": 480
             },
             "size": {
-              "width": 112.5,
-              "height": 60
+              "width": 150,
+              "height": 90
             },
             "attrs": {
               "body": {
@@ -1294,7 +1310,7 @@
                 }
               ]
             },
-            "id": "afe858bd-b8bd-4617-90e8-a119f172afab",
+            "id": "84f16a02-8bbd-447b-8eee-f6212103dcdd",
             "zIndex": 24,
             "data": {
               "type": "tm.Actor",
@@ -1306,14 +1322,53 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User sends user credential",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "User sends user credential"
+            ],
+            "id": "f0385cf5-a2b3-4e7d-a92f-3e6d8a100519",
+            "source": {
+              "x": 290,
+              "y": 500
+            },
+            "target": {
+              "x": 520,
+              "y": 500
+            },
+            "vertices": [],
+            "zIndex": 25
           }
         ]
       }
