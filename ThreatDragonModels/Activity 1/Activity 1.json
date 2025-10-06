@@ -2340,6 +2340,9 @@
               "height": 90
             },
             "attrs": {
+              "text": {
+                "text": "Browser Application"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -2434,7 +2437,7 @@
             "id": "84f16a02-8bbd-447b-8eee-f6212103dcdd",
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "Browser Application",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
